@@ -1,0 +1,33 @@
+# --- Local Pipeline Overrides ---
+.env
+output/*
+.venv/
+venv/
+__pycache__/
+*/__pycache__/*
+
+# --- Standard Python Cleanup Rules ---
+*.py[codz]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+pip-log.txt
+.coverage
+.cache
+.pytest_cache/
+*.log
+.mypy_cache/
+tempCodeRunnerFile.py
+.streamlit/secrets.toml

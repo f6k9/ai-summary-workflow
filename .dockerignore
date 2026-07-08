@@ -1,0 +1,16 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Prevents local test runs from blowing up the image size
+output/
+*.pdf
+
+# Ignores text files except for requirements
+*.txt
+!requirements.txt
+
+.git/
+.gitignore
